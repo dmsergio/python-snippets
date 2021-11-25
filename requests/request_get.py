@@ -4,12 +4,12 @@ import json
 import requests
 
 
-URL = "https://api.github.com/events"
+ENDPOINT = "https://api.github.com/events"
 
 
 def get_random_repositories():
     """Make a simple request"""
-    response = requests.get(URL)
+    response = requests.get(url=ENDPOINT)
     # response.status_code -> code response
     # response.text -> json string... parse with json module to work with it
     # response.content -> good for image data
@@ -28,7 +28,7 @@ def get_custom_repositories():
         "q": "requests+language:python",
         "per_page": "10"
     }
-    response = requests.get(URL, params=params)
+    response = requests.get(url=ENDPOINT, params=params)
     print("\nList of Django repos:")
     for idx, data in enumerate(response.json(), 1):
         repo_name = data["repo"]["name"]
