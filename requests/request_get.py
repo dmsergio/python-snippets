@@ -7,7 +7,8 @@ import requests
 URL = "https://api.github.com/events"
 
 
-def get_request():
+def get_random_repositories():
+    """Make a simple request"""
     response = requests.get(URL)
     # response.status_code -> code response
     # response.text -> json string... parse with json module to work with it
@@ -21,5 +22,19 @@ def get_request():
         print(f"\t{idx}.- {repo_name}")
 
 
+def get_custom_repositories():
+    """Make a request with params"""
+    params = {
+        "q": "requests+language:python",
+        "per_page": "10"
+    }
+    response = requests.get(URL, params=params)
+    print("\nList of Django repos:")
+    for idx, data in enumerate(response.json(), 1):
+        repo_name = data["repo"]["name"]
+        print(f"\t{idx}.- {repo_name}")
+
+
 if __name__ == "__main__":
-    get_request()
+    get_random_repositories()
+    get_custom_repositories()
