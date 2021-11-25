@@ -1,15 +1,19 @@
 # request_get.py
+import json
+
 import requests
+
 
 URL = "https://api.github.com/events"
 
 
 def get_request():
     response = requests.get(URL)
-    print(response.status_code)
-    print(type(response.text))  # parse with json module to work with it
-    print(type(response.content))  # good for image data
-    print(type(response.json()))  # parsed with python structure data
+    # response.status_code -> code response
+    # response.text -> json string... parse with json module to work with it
+    # response.content -> good for image data
+    # response.json() -> parsed with python structure data
+    # json.loads(response.text) -> this is equivalent to response.json()
 
     print("\nList of GitHub repos:")
     for idx, data in enumerate(response.json(), 1):
