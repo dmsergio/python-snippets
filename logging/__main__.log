@@ -1,0 +1,27 @@
+root-DEBUG(10)-29-11-2021 20:04:48-This is a debug message.
+root-INFO(20)-29-11-2021 20:04:48-This is a info message.
+root-WARNING(30)-29-11-2021 20:04:48-This is a warning message.
+root-ERROR(40)-29-11-2021 20:04:48-This is a error message.
+root-CRITICAL(50)-29-11-2021 20:04:48-This is a critical message.
+root-DEBUG(10)-29-11-2021 20:04:49-This is a debug message.
+root-INFO(20)-29-11-2021 20:04:49-This is a info message.
+root-WARNING(30)-29-11-2021 20:04:49-This is a warning message.
+root-ERROR(40)-29-11-2021 20:04:49-This is a error message.
+root-CRITICAL(50)-29-11-2021 20:04:49-This is a critical message.
+root-DEBUG(10)-29-11-2021 20:04:50-This is a debug message.
+root-INFO(20)-29-11-2021 20:04:50-This is a info message.
+root-WARNING(30)-29-11-2021 20:04:50-This is a warning message.
+root-ERROR(40)-29-11-2021 20:04:50-This is a error message.
+root-CRITICAL(50)-29-11-2021 20:04:50-This is a critical message.
+root-DEBUG(10)-29-11-2021 20:08:05-This is a debug message.
+root-INFO(20)-29-11-2021 20:08:05-This is a info message.
+root-WARNING(30)-29-11-2021 20:08:05-This is a warning message.
+root-ERROR(40)-29-11-2021 20:08:05-This is a error message.
+root-CRITICAL(50)-29-11-2021 20:08:05-This is a critical message.
+root-INFO(20)-29-11-2021 20:08:05-Guido created an amazing programming language.
+root-DEBUG(10)-29-11-2021 20:08:45-This is a debug message.
+root-INFO(20)-29-11-2021 20:08:45-This is a info message.
+root-WARNING(30)-29-11-2021 20:08:45-This is a warning message.
+root-ERROR(40)-29-11-2021 20:08:45-This is a error message.
+root-CRITICAL(50)-29-11-2021 20:08:45-This is a critical message.
+root-INFO(20)-29-11-2021 20:08:45-Guido created an amazing programming language.
