@@ -1,3 +1,4 @@
+# logging_basic_config.py
 import logging
 
 logging.basicConfig(
@@ -19,6 +20,17 @@ def main():
 
     name = "Guido"
     logging.info(f"{name} created an amazing programming language.")
+
+    # exception method is the same that exc_info argument
+    try:
+        1 / 0
+    except Exception as e:
+        logging.error(f"Error: {e}", exc_info=True)
+
+    try:
+        1 / 0
+    except Exception:
+        logging.exception("")
 
 
 if __name__ == "__main__":
