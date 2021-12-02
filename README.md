@@ -4,4 +4,5 @@ Python snippets of several topics, like tests, requests, loggings, etc. Each top
 
 ### Content :clipboard:
 - :dizzy: [Context Managers](./context_managers)
+- :flashlight: [Logging](./logging)
 - :satellite: [Requests](./requests)
