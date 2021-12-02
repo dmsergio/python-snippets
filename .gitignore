@@ -5,3 +5,6 @@ __pycache__/
 
 # PyCharm stuffs
 *.idea
+
+# Log files
+*.log
