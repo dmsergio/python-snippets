@@ -13,9 +13,9 @@ logging.basicConfig(
 def main():
     # without line 3, the two next sentences don't show nothing
     logging.debug("This is a debug message.")
-    logging.info("This is a info message.")
+    logging.info("This is an info message.")
     logging.warning("This is a warning message.")
-    logging.error("This is a error message.")
+    logging.error("This is an error message.")
     logging.critical("This is a critical message.")
 
     name = "Guido"
