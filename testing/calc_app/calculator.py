@@ -1,7 +1,8 @@
-# calc.py
+# calculator.py
 
 
-class Calc:
+class Calculator:
+    """Calculator with four simple operations"""
 
     @staticmethod
     def add(x, y):
