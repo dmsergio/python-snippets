@@ -1,0 +1,21 @@
+The ``calc_app`` module
+=======================
+
+Using ``Calculator``
+--------------------
+
+This is an example text file in reStructuredText format.  First import
+``Calculator`` from the ``calc_app`` module:
+
+    >>> from calculator import Calculator
+
+Now use it:
+
+    >>> Calculator.add(2, 4)
+    6
+    >>> Calculator.subtract(1, 0)
+    1
+    >>> Calculator.multiply(10, 5)
+    50
+    >>> Calculator.divide(5, 5)
+    1
