@@ -1,4 +1,7 @@
 # test_pytest_calc.py
+
+import pytest
+
 from calc_app.calculator import Calculator
 
 
@@ -15,3 +18,16 @@ class TestCalc:
 
     def test_divide(self):
         assert Calculator.divide(10, 5) == 2, "Should be 2"
+
+
+@pytest.mark.parametrize("adding, expected_result", [
+    ((1, 1), 2),
+    ((10, -1), 9),
+    ((45, 4), 49),
+    ((99, 1), 100),
+    ((-1, -1), -2),
+    ((-20, 0), -20),
+])
+def test_add_parametrized(adding, expected_result):
+    error_info = f"Should be {expected_result}"
+    assert Calculator.add(*adding) == expected_result, error_info
