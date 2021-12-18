@@ -4,6 +4,7 @@ Python snippets of several topics, like tests, requests, loggings, etc. Each top
 
 ### Content :clipboard:
 - :dizzy: [Context Managers](./context_managers)
+- :zap: [FastAPI](./fastapi_example)
 - :flashlight: [Logging](./logging)
 - :satellite: [Requests](./requests)
 - :vertical_traffic_light: [Testing](./testing)
