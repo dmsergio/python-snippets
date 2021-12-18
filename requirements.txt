@@ -1,2 +1,5 @@
+fastapi
 pytest
+pydantic
 requests
+uvicorn[standard]
