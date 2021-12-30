@@ -7,4 +7,5 @@ Python snippets of several topics, like tests, requests, loggings, etc. Each top
 - :zap: [FastAPI](./fastapi_example)
 - :flashlight: [Logging](./logging)
 - :satellite: [Requests](./requests)
+- :duck: [Type hints](./type_hints)
 - :vertical_traffic_light: [Testing](./testing)
